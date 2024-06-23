@@ -3,6 +3,11 @@ body {
     font-family: "PT Serif", serif;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 header {
     padding: 1em 1em;
     justify-content: space-between;
@@ -13,18 +18,34 @@ header {
 .title {
     text-align: center;
     margin: 0 auto;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 
 h1 {
     font-size: 1.5rem;
     font-weight: 700;
+    color: darkcyan;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1rem;
+    color: darkcyan;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 1rem;
+    line-height: 1.5;
+    color: gray;
 }
 
 nav {
     align-self: center;
     display: block;
     margin: 0 auto;
+    padding-top: 1rem;
 }
 
 ul {
@@ -41,4 +62,49 @@ li {
 a {
     color: black;
     text-decoration: none;
+}
+
+section {
+    /* padding: 2rem; */
+}
+
+.collors {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(235, 235, 235);
+    border-radius: 30px;
+    max-width: 300px;
+    min-width: 250px;
+    height: 360px;
+    border: 1px solid #e0e0e0;
+    box-shadow: rgba(45, 46, 47, 0.12) 0px 16px 64px;
+    margin-bottom: 2rem;
+}
+
+.header {
+    min-height: 224px;
+    border-radius: 30px;
+}
+
+.header p {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    top: 160px;
+}
+
+.orange {
+    background-color: rgb(201 62 14);
+}
+
+.blue {
+    background-color: darkcyan;
 }
